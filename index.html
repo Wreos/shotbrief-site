@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ShotBrief turns iPhone screenshots into short summaries and actions you can review. See an invitation become a calendar draft.">
+  <meta name="theme-color" content="#f3f0ea">
+  <meta property="og:title" content="ShotBrief — Turn screenshots into next steps">
+  <meta property="og:description" content="Get a short summary, then review a calendar event, a contact or a link. Coming to the App Store for iPhone.">
+  <title>ShotBrief — Turn screenshots into next steps</title>
+  <link rel="icon" href="assets/shotbrief.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead shell">
+    <a class="brand" href="./"><img src="assets/shotbrief.webp" width="34" height="34" alt="">ShotBrief</a>
+    <nav aria-label="Main navigation">
+      <a class="nav-demo" href="#demo">Demo</a>
+      <a href="privacy/">Privacy</a>
+      <a class="nav-release" href="#get-shotbrief">App availability</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <h1 id="hero-title">Turn screenshots <br>into <em>next steps.</em></h1>
+      <p>Get a short summary of what you saved. Then review a calendar event, a contact or a link and decide what to do with it.</p>
+      <div class="hero-actions">
+        <a class="button" href="#demo">Try a sample
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 4v15m-6-6 6 6 6-6"/></svg>
+        </a>
+        <a class="release-link" href="#get-shotbrief">Coming to the App Store</a>
+      </div>
+    </section>
+
+    <section class="demo shell" id="demo" aria-labelledby="demo-title">
+      <div class="demo-heading">
+        <h2 id="demo-title">See what ShotBrief finds.</h2>
+        <p>Pick a fictional example to see a real ShotBrief screen.</p>
+      </div>
+      <fieldset class="examples">
+        <legend class="sr-only">Choose a screenshot example</legend>
+        <input class="sr-only" type="radio" name="example" id="pick-event" checked>
+        <input class="sr-only" type="radio" name="example" id="pick-link">
+        <input class="sr-only" type="radio" name="example" id="pick-reference">
+        <div class="choices">
+          <label for="pick-event">Invitation</label>
+          <label for="pick-link">Article</label>
+          <label for="pick-reference">Checklist</label>
+        </div>
+        <article class="demo-stage" id="sample-event" aria-labelledby="event-title">
+          <div class="source">
+            <p class="stage-label">Screenshot excerpt</p>
+            <div class="source-sheet poster">
+              <p class="poster-series">Studio Sessions</p>
+              <h3 id="event-title">Design<br>after hours</h3>
+              <p class="poster-date">18 June 2027 · 18:30</p>
+              <p>Studio Hall, Berlin</p>
+            </div>
+            <p class="stage-caption">The date and place are in the invitation.</p>
+          </div>
+          <svg class="connector" aria-hidden="true" viewBox="0 0 70 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M1 12h65m-8-7 8 7-8 7"/></svg>
+          <figure class="result">
+            <p class="stage-label">ShotBrief result</p>
+            <img class="app-screen" src="assets/event.webp" width="720" height="1564" alt="ShotBrief summarizes the Design after hours meetup and offers an Add to calendar action.">
+            <figcaption class="stage-caption">Review the event before adding it to Calendar.</figcaption>
+          </figure>
+        </article>
+        <article class="demo-stage" id="sample-link" aria-labelledby="link-title">
+          <div class="source">
+            <p class="stage-label">Screenshot excerpt</p>
+            <div class="source-sheet article">
+              <p class="poster-series">Field Notes</p>
+              <h3 id="link-title">A weekend with less screen time</h3>
+              <p>Silence notifications. Take a long walk. Bring a book to your favourite café.</p>
+              <p class="source-url">example.com/weekend</p>
+            </div>
+            <p class="stage-caption">A saved article with a link worth keeping.</p>
+          </div>
+          <svg class="connector" aria-hidden="true" viewBox="0 0 70 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M1 12h65m-8-7 8 7-8 7"/></svg>
+          <figure class="result">
+            <p class="stage-label">ShotBrief result</p>
+            <img class="app-screen" src="assets/link.webp" width="720" height="1564" alt="ShotBrief shows a short summary of the weekend guide and an Open link action." loading="lazy">
+            <figcaption class="stage-caption">Get the gist and open the original link.</figcaption>
+          </figure>
+        </article>
+        <article class="demo-stage" id="sample-reference" aria-labelledby="reference-title">
+          <div class="source">
+            <p class="stage-label">Screenshot excerpt</p>
+            <div class="source-sheet checklist">
+              <h3 id="reference-title">Weekend<br>packing list</h3>
+              <ul><li>Warm clothes</li><li>Charger</li><li>Water bottle</li></ul>
+            </div>
+            <p class="stage-caption">Something useful to have on hand.</p>
+          </div>
+          <svg class="connector" aria-hidden="true" viewBox="0 0 70 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M1 12h65m-8-7 8 7-8 7"/></svg>
+          <figure class="result">
+            <p class="stage-label">ShotBrief result</p>
+            <img class="app-screen" src="assets/reference.webp" width="720" height="1564" alt="ShotBrief summarizes the packing list and shows Keep as a review option." loading="lazy">
+            <figcaption class="stage-caption">Keep the list and find it again later.</figcaption>
+          </figure>
+        </article>
+      </fieldset>
+    </section>
+
+    <section class="workflow shell" aria-labelledby="workflow-title">
+      <h2 id="workflow-title">From camera roll<br>to done.</h2>
+      <ol>
+        <li><h3>Pick what to review</h3><p>Choose up to 20 images at a time. ShotBrief reads text and QR codes on your iPhone.</p></li>
+        <li><h3>Get the gist</h3><p>With your permission, Google Gemini turns what’s on the screenshot into a short summary and suggests relevant actions.</p></li>
+        <li><h3>Decide what to do</h3><p>Check the details before saving. Keep useful screenshots in your library and search their text later.</p></li>
+      </ol>
+    </section>
+
+    <section class="privacy-band" aria-labelledby="privacy-title">
+      <div class="shell privacy-grid">
+        <h2 id="privacy-title">Your screenshots.<br>Your choice.</h2>
+        <div>
+          <p>Your library stays on your iPhone. Cloud analysis needs your consent. It sends recognized text to Google and may send a compressed image when text alone is insufficient. You can turn it off and still use local text recognition and manual review.</p>
+          <a class="text-link" href="privacy/">How ShotBrief handles your data</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="launch shell" id="get-shotbrief" aria-labelledby="launch-title">
+      <img src="assets/shotbrief.webp" width="60" height="60" alt="">
+      <h2 id="launch-title">ShotBrief for iPhone</h2>
+      <p>iOS 17 or later · English, German and Russian</p>
+      <p class="store-placeholder">Coming to the App Store</p>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <a class="brand" href="./"><img src="assets/shotbrief.webp" width="30" height="30" alt="">ShotBrief</a>
+    <nav aria-label="Footer"><a href="privacy/">Privacy</a><a href="support/">Support</a></nav>
+  </footer>
+</body>
+</html>
