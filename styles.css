@@ -163,6 +163,8 @@ nav a:hover { text-decoration: underline; }
 .reading .privacy-title { font-size: clamp(1.55rem, 7.5vw, 4.5rem); overflow-wrap: anywhere; }
 .reading h2 { font-size: clamp(1.45rem, 3vw, 2rem); margin-top: 36px; margin-bottom: 9px; letter-spacing: -.02em; }
 .reading p + p { margin-top: 12px; }
+.reading section + section { margin-top: 52px; border-top: 1px solid var(--rule); }
+.reading section h3 { font-size: 1.1rem; margin: 22px 0 7px; }
 .reading a { color: var(--green); overflow-wrap: anywhere; }
 .reading .intro { font-size: 1.12rem; color: var(--muted); }
 

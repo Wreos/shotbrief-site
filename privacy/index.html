@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Datenschutzhinweise zur ShotBrief-Website, zu Support-Anfragen und zur App in Vorbereitung.">
+  <meta name="description" content="Datenschutzhinweise zur ShotBrief-Website, zu Support-Anfragen und zur App ShotBrief.">
   <meta name="theme-color" content="#f3f0ea">
   <title>Datenschutzerklärung — ShotBrief</title>
   <link rel="icon" href="../assets/shotbrief.webp" type="image/webp">
@@ -17,7 +17,9 @@
   </header>
   <main id="main" class="reading">
     <h1 class="privacy-title">Datenschutzerklärung</h1>
-    <p class="intro">Hinweise zum Besuch der Website und zu Anfragen per E-Mail. Informationen zur App stehen am Ende.</p>
+    <p class="intro">Hinweise zum Besuch der Website und zu Anfragen per E-Mail. Hinweise zur App stehen unten.</p>
+
+    <p><a href="#app-de">App auf Deutsch</a> · <a href="#app-en" lang="en">App in English</a> · <a href="#app-ru" lang="ru">Приложение на русском</a></p>
 
     <h2>Verantwortlich für die Datenverarbeitung</h2>
     <p>Aleksandr Lozhkovoi</p>
@@ -31,15 +33,68 @@
     <p>Wenn du uns schreibst, verarbeiten wir deine E-Mail-Adresse, den Inhalt deiner Nachricht und freiwillig mitgesendete Dateien, um deine Anfrage zu beantworten. Die Rechtsgrundlage ist unser berechtigtes Interesse an der Bearbeitung von Anfragen (Art. 6 Abs. 1 Buchst. f DSGVO) oder, wenn die Bearbeitung für einen Vertrag mit dir oder eine von dir angefragte vorvertragliche Maßnahme erforderlich ist, Art. 6 Abs. 1 Buchst. b DSGVO. Eine Antwort per E-Mail setzt eine erreichbare Absenderadresse voraus.</p>
     <p>Wir nutzen Gmail für den Empfang und Versand. Google kann Daten außerhalb des EWR verarbeiten und nennt dafür unter anderem das EU–US Data Privacy Framework und EU-Standardvertragsklauseln. Wie lange wir eine Anfrage speichern, richtet sich nach der Bearbeitung, etwaigen gesetzlichen Aufbewahrungspflichten und der Erforderlichkeit für Rechtsansprüche. <a href="https://policies.google.com/privacy?hl=de">Datenschutzhinweise von Google</a> · <a href="https://policies.google.com/privacy/frameworks?hl=de">Garantien für Datenübermittlungen</a></p>
 
-    <h2>Deine Rechte</h2>
+    <h2 id="rights">Deine Rechte</h2>
     <p>Unter den Voraussetzungen der DSGVO kannst du Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung verlangen und hast gegebenenfalls ein Recht auf Datenübertragbarkeit. Eine Einwilligung kannst du jederzeit mit Wirkung für die Zukunft widerrufen. Du kannst dich außerdem bei einer Datenschutzaufsichtsbehörde beschweren. <a href="https://www.datenschutz-berlin.de/buergerinnen-und-buerger/rechte/beschwerderecht/">Beschwerderecht in Berlin</a></p>
 
     <h2>Widerspruchsrecht</h2>
     <p>Einer Verarbeitung auf Grundlage berechtigter Interessen kannst du aus Gründen widersprechen, die sich aus deiner besonderen Situation ergeben (Art. 21 DSGVO).</p>
 
-    <h2>Vorabinformation zur App</h2>
-    <p>ShotBrief erkennt Text und QR-Codes auf dem iPhone und speichert importierte Bilder, Ergebnisse und Bearbeitungen lokal. Bei erlaubter Cloud-Analyse erhält Google Gemini über Firebase AI Logic erkannten Text einschließlich QR-Inhalten und bei unzureichendem Text auch eine komprimierte Bildkopie. Die Analyse dient Zusammenfassungen und Aktionsvorschlägen. Die gespeicherte Auswahl kann auch für später verarbeitete Screenshots gelten, einschließlich solcher aus dem aktivierten Screenshot-Album.</p>
-    <p>Google kann Inhalte vorübergehend zur Missbrauchsprävention speichern und außerhalb des EWR verarbeiten. Unter Datenschutz in der App kannst du die Einwilligung widerrufen. Danach bleiben Texterkennung und manuelle Prüfung lokal verfügbar. Die vollständigen Angaben zur Cloud-Verarbeitung für die öffentliche App-Version folgen vor der Veröffentlichung der App.</p>
+    <section id="app-de" aria-labelledby="app-de-title">
+      <h2 id="app-de-title">ShotBrief für iPhone</h2>
+      <p>Verantwortlich ist Aleksandr Lozhkovoi. Kontakt für Datenschutzanfragen <a href="mailto:wreos96@gmail.com">wreos96@gmail.com</a>. Die Geschäftsanschrift steht im <a href="../impressum/">Impressum</a>.</p>
+
+      <h3>Auswahl und lokale Verarbeitung</h3>
+      <p>Beim manuellen Import erhält ShotBrief nur die Bilder, die du in der System-Fotoauswahl auswählst, bis zu 20 je Auswahl. Du kannst auch ein Bild aufnehmen, mit ShotBrief teilen oder in der Fotosuche ausdrücklich zur Analyse auswählen. Der Zugriff auf das System-Screenshot-Album und die Fotosuche ist separat und richtet sich nach den in iOS erteilten Berechtigungen. Die Fotosuche verarbeitet ihren Suchindex lokal. iOS kann angeforderte Bilder aus iCloud Fotos laden.</p>
+      <p>Texterkennung und QR-Erkennung laufen auf dem iPhone. Importierte Bilder, erkannter Text, Ergebnisse, Änderungen, gespeicherte Links und deine Cloud-Auswahl bleiben lokal. Die App erfordert kein Konto. Die geschützte Bibliothek ist von Geräte-Backups ausgeschlossen. Du kannst lokale App-Daten durch Deinstallation entfernen. Das Leeren des Posteingangs behält die Bibliothek. Fotos-Originale bleiben separat und werden nur nach Bestätigung in iOS gelöscht.</p>
+
+      <h3>Optionale Cloud-Analyse</h3>
+      <p>Mit deiner Einwilligung (Art. 6 Abs. 1 Buchst. a DSGVO für deine personenbezogenen Daten) sendet ShotBrief erkannten Text einschließlich dekodierter QR-Inhalte über Firebase AI Logic an die Google Gemini Developer API. Wenn Text allein nicht ausreicht, kann eine komprimierte Bildkopie mitgesendet werden. Google erhält auch technische Verbindungsdaten und Nachweise zur App-Integrität. Die Analyse liefert Zusammenfassungen und Aktionsvorschläge. Deine Auswahl gilt auch für künftige Scans. Wenn du das Screenshot-Album aktiviert hast, kann ShotBrief berechtigte Screenshots während der Nutzung automatisch zur Analyse senden, bevor du die jeweilige Karte öffnest.</p>
+      <p>Für Inhalte der Analyse gelten die Bedingungen der kostenpflichtigen Gemini API und das dort genannte Auftragsverarbeitungsabkommen. Google nutzt diese Eingaben und Antworten nach diesen Bedingungen nicht zur Produktverbesserung. Google nennt für die dort beschriebenen Protokolle zur Missbrauchsprävention eine Aufbewahrung von 55 Tagen. Daten können außerhalb des EWR verarbeitet werden. Googles Vereinbarungen beschreiben die Garantien für solche Übermittlungen, einschließlich EU-Standardvertragsklauseln, soweit anwendbar. <a href="https://ai.google.dev/gemini-api/terms">Gemini-API-Bedingungen</a> · <a href="https://ai.google.dev/gemini-api/docs/usage-policies">Missbrauchsprävention und Aufbewahrung</a></p>
+      <p>Die Cloud-Analyse ist freiwillig. Wähle für sensible oder vertrauliche Inhalte und Bilder, die du nicht weitergeben darfst, die lokale Verarbeitung. Im Menü des Posteingangs unter Datenschutz kannst du die Einwilligung jederzeit widerrufen. Das stoppt künftige Cloud-Anfragen, ruft bereits gesendete Inhalte aber nicht zurück. Lokale Texterkennung und manuelle Prüfung bleiben verfügbar. Die <a href="#rights">Datenschutzrechte und Kontaktmöglichkeiten</a> stehen oben.</p>
+
+      <h3>Aktionen, die du auswählst</h3>
+      <p>Kontakte und Kalenderereignisse werden im iOS-Systemeditor bestätigt. Das dort gewählte Konto kann sie synchronisieren. Links und Suchanfragen öffnen sich im jeweiligen Browser oder Dienst. Beim Teilen erhält das von dir gewählte Ziel die ausgewählten Inhalte.</p>
+    </section>
+
+    <section id="app-en" lang="en" aria-labelledby="app-en-title">
+      <h2 id="app-en-title">ShotBrief for iPhone</h2>
+      <p>The controller is Aleksandr Lozhkovoi. For privacy requests, email <a href="mailto:wreos96@gmail.com">wreos96@gmail.com</a>. The business address is in the <a href="../impressum/">legal notice</a>.</p>
+
+      <h3>Image selection and on-device processing</h3>
+      <p>For manual imports, ShotBrief receives only the images you select in the system photo picker, up to 20 per selection. You can also capture an image, share it to ShotBrief, or explicitly analyze it from photo search. Access to the system screenshot album and photo search is separate and follows your iOS Photos permissions. The photo search index is built on device. iOS may download requested images from iCloud Photos.</p>
+      <p>Text and QR recognition run on your iPhone. Imported images, recognized text, results, edits, saved links and your cloud choice are stored locally. ShotBrief requires no account. The protected library is excluded from device backups. You can remove local app data by uninstalling. Clearing the Inbox keeps the library. Photos originals are separate and are deleted only after iOS confirmation.</p>
+
+      <h3>Optional cloud analysis</h3>
+      <p>With your consent (Article 6(1)(a) GDPR for your personal data), ShotBrief sends recognized text, including decoded QR contents, through Firebase AI Logic to the Google Gemini Developer API. It may also send a compressed image when text alone is insufficient. Google receives connection and app integrity information. The analysis produces summaries and suggested actions. Your choice also applies to future scans. If you enable the screenshot album, ShotBrief can send permitted screenshots for analysis automatically while the app is in use, before you open the individual card.</p>
+      <p>Analysis content is subject to the paid Gemini API terms and the data processing addendum referenced there. Under those terms, Google does not use prompts or responses to improve its products. Google lists a 55-day retention period for the abuse-monitoring logs described in its policy. Data can be processed outside the EEA. Google's terms describe transfer safeguards, including EU standard contractual clauses where applicable. <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a> · <a href="https://ai.google.dev/gemini-api/docs/usage-policies">Abuse monitoring and retention</a></p>
+      <p>Cloud analysis is optional. Use local processing for confidential or sensitive material and images you are not allowed to share. You can withdraw consent at any time in Privacy in the Inbox menu. That stops future cloud requests. It cannot recall content already sent. Local recognition and manual review remain available.</p>
+
+      <h3>Actions you choose</h3>
+      <p>You confirm contacts and events in the iOS system editor. The account you choose there may sync them. Links and searches open in the relevant browser or service. If you share a result, the destination you choose receives the selected content.</p>
+
+      <h3>Your rights</h3>
+      <p>You can contact us about access, correction, erasure, restriction, portability or objections where applicable. You may withdraw consent at any time and lodge a complaint with a data protection authority. <a href="https://www.datenschutz-berlin.de/buergerinnen-und-buerger/rechte/beschwerderecht/">Berlin data protection authority</a></p>
+    </section>
+
+    <section id="app-ru" lang="ru" aria-labelledby="app-ru-title">
+      <h2 id="app-ru-title">ShotBrief для iPhone</h2>
+      <p>Ответственный за обработку данных — Aleksandr Lozhkovoi. По вопросам конфиденциальности пишите на <a href="mailto:wreos96@gmail.com">wreos96@gmail.com</a>. Рабочий адрес указан в <a href="../impressum/">Impressum</a>.</p>
+
+      <h3>Выбор изображений и локальная обработка</h3>
+      <p>При ручном импорте ShotBrief получает только изображения, выбранные вами в системном пикере, до 20 за раз. Вы также можете сделать снимок камерой, передать изображение в ShotBrief или явно запустить анализ из поиска по фото. Доступ к системному альбому скриншотов и поиску по фото настраивается отдельно и зависит от разрешений iOS. Поисковый индекс строится на устройстве. iOS может загрузить запрошенные изображения из iCloud Photos.</p>
+      <p>Распознавание текста и QR-кодов работает на iPhone. Импортированные изображения, текст, результаты, правки, сохранённые ссылки и ваш выбор облачной обработки хранятся локально. Аккаунт не нужен. Защищённая библиотека исключена из резервных копий устройства. Удаление приложения удаляет его локальные данные. Очистка очереди сохраняет библиотеку. Оригиналы в «Фото» хранятся отдельно и удаляются только после подтверждения в iOS.</p>
+
+      <h3>Облачный анализ по согласию</h3>
+      <p>С вашего согласия (статья 6(1)(a) GDPR для ваших персональных данных) ShotBrief отправляет распознанный текст, включая содержимое QR-кодов, через Firebase AI Logic в Google Gemini Developer API. Если текста недостаточно, приложение также может отправить сжатую копию изображения. Google получает сведения о подключении и целостности приложения. Анализ нужен для краткого содержания и предложений действий. Ваш выбор применяется к будущим сканам. Если подключён альбом скриншотов, ShotBrief может автоматически отправлять разрешённые скриншоты на анализ, пока приложение открыто, до открытия отдельной карточки.</p>
+      <p>На материалы анализа распространяются условия платного Gemini API и указанное в них соглашение об обработке данных. По этим условиям Google не использует запросы и ответы для улучшения своих продуктов. Для журналов предотвращения злоупотреблений, описанных в документации, Google указывает срок хранения 55 дней. Данные могут обрабатываться за пределами ЕЭЗ. В условиях Google описаны гарантии передачи, включая стандартные договорные положения ЕС там, где они применимы. <a href="https://ai.google.dev/gemini-api/terms">Условия Gemini API</a> · <a href="https://ai.google.dev/gemini-api/docs/usage-policies">Хранение журналов</a></p>
+      <p>Облачный анализ необязателен. Для чувствительных и конфиденциальных материалов и изображений, которые нельзя передавать, выбирайте локальную обработку. Согласие можно отозвать в разделе «Приватность» в меню входящих. Это останавливает будущие облачные запросы. Уже отправленные материалы вернуть нельзя. Локальное распознавание и ручная проверка остаются доступны.</p>
+
+      <h3>Действия, которые вы выбираете</h3>
+      <p>Контакты и события вы подтверждаете в системных редакторах iOS. Выбранный аккаунт может их синхронизировать. Ссылки и поисковые запросы открываются в соответствующем браузере или сервисе. При отправке результата выбранный получатель получает выбранные вами данные.</p>
+
+      <h3>Ваши права</h3>
+      <p>Вы можете обратиться по вопросам доступа, исправления, удаления, ограничения обработки, переноса данных и возражения, если применимо. Согласие можно отозвать в любое время. Вы также можете подать жалобу в надзорный орган. <a href="https://www.datenschutz-berlin.de/buergerinnen-und-buerger/rechte/beschwerderecht/">Берлинский орган по защите данных</a></p>
+    </section>
   </main>
   <footer class="footer shell"><a class="brand" href="../">ShotBrief</a><nav aria-label="Fußnavigation"><a href="../">Startseite</a><a href="../support/">Support</a><a href="../impressum/">Impressum</a></nav></footer>
 </body>
